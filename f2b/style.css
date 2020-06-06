@@ -1,0 +1,146 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(img423.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.menu-bar
+{
+background: rgb(101, 242, 85);
+text-align: center;
+}
+.logo img
+{
+    float: left;
+    width: 160px;
+    height: 70px;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.menu-bar ul input[type=text]
+    {
+    float: right;
+    padding: 6px;
+    border: 8px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .fa fa-search
+  {
+      text-align: center;
+  }
+.menu-bar ul li
+{
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.active, .menu-bar ul li:hover
+{
+    background: rgb(4, 161, 30);
+    border-radius: 2px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+}    
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(74,227,223);
+    margin-top: 15px;
+    margin-left: -15px;
+    }
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: rgb(17, 33, 236);
+}
+.fa-angle-right
+{
+    float: right;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    display: block;
+    position: absolute;
+    background: rgb(74,227,223);
+    margin-top: -38px;
+    margin-left: 150px;   
+}
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 10%;
+    padding: 12px 20px;
+    margin-top: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 20xp;
+    border: none;
+    cursor: pointer;
+    width: auto;
+  }
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: o;
+  }
+  
+  
+ 
+  
+
+
+
